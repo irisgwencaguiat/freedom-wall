@@ -21,7 +21,7 @@ export default new Vuex.Store({
             });
         },
         getMessages({ commit }) {
-            axios.get('http://localhost:3000/api/messages').then((res) => {
+            axios.get('api/messages').then((res) => {
                 console.log(res.data);
                 commit('setMessages', res.data);
             });
