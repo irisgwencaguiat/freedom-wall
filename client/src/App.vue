@@ -10,7 +10,6 @@
 import Navbar from './components/Navbar';
 import AppInput from './components/AppInput';
 import AppContent from './components/AppContent';
-import axios from 'axios';
 
 export default {
     components: {
