@@ -2,7 +2,7 @@
     <v-app>
         <Navbar></Navbar>
         <AppInput></AppInput>
-        <AppContent :messages="messages"></AppContent>
+        <AppContent></AppContent>
     </v-app>
 </template>
 
@@ -17,11 +17,6 @@ export default {
         Navbar,
         AppInput,
         AppContent,
-    },
-    data() {
-        return {
-            messages: [],
-        };
     },
     created() {
         this.$store.dispatch('getMessages');

@@ -4,12 +4,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css/chunk-vendors.68f8779e.css"
   },
   {
-    "revision": "5f0edd1a48ea1357e64bb78c476220af",
+    "revision": "b54603c537f146a1b794110f28b45844",
     "url": "/index.html"
   },
   {
-    "revision": "3634ba745c0c8a511af7",
-    "url": "/js/app.91312fb9.js"
+    "revision": "33f6c069da3953a8987b",
+    "url": "/js/app.1917570a.js"
   },
   {
     "revision": "4f2d787d6b2f6f4a6564",

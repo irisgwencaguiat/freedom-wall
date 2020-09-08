@@ -15,7 +15,6 @@
 
 <script>
 export default {
-    props: ['messages'],
     computed: {
         allMessages() {
             return this.$store.getters.getMessages;
